@@ -143,7 +143,10 @@ img {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        gap: 50px;
+        gap: 3rem;
+    }
+    .lessons {
+        padding-bottom: 3rem;
     }
     .lessons .col {
         width: 80%;
@@ -159,5 +162,9 @@ img {
     }
     .why-us .col-right {
         width: 80%;
+    }
+    .steps, .why-us {
+        margin: 0;
+        padding: 3rem 0;
     }
 }
